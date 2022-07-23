@@ -70,6 +70,7 @@ body {
   line-height: 1.1;
   font-size: 2.7rem;
   margin-bottom: 2rem;
+  width: 19rem;
 }
 
 .product__description {
@@ -145,6 +146,10 @@ body {
   .product {
     width: 100%;
     grid-template-columns: 1fr;
+  }
+
+  .product__heading {
+    width: 100%;
   }
   .product__image--desktop {
     display: none;
